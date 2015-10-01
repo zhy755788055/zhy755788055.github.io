@@ -37,7 +37,7 @@ search :
   # Your Google custom search engine ID
   #
   gcse :
-    cx : 004255214185073801838:_icnlls8kds
+    cx : 013193610237299378729:uqcnnhzycqq
   
 # The way of excerpt. There are two options: "teaser" and "truncate_words".
 # "teaser" option: look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
@@ -146,7 +146,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-68309669-1'
     getclicky :
       site_id : 
     mixpanel :
