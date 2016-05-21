@@ -6,6 +6,8 @@ tagline: by 赵宏阳
 tags: [wifi 破解]
 ---
 
+<!--more-->
+
 # 1、获取aircrack-ng #
 可以使用`apt-get install aircrack-ng`安装，也可以去[官网](
 http://www.aircrack-ng.org/doku.php?id=downloads#linux_packages)找到ubuntu的下载地址，可以下载deb包安装，也可以[下载源码](http://ubuntu2.cica.es/ubuntu/ubuntu/pool/universe/a/aircrack-ng/aircrack-ng_1.0.orig.tar.gz)，这里演示通过源码编译和安装的过程：运行`make`,可能提示`set but not used [-Werror=unused-but-set-variable]`这个错误，修改根目录下的`common.mak`中的`CFLAGS          ?= -g -W -Werror -Wall -O3`，把`-Werror`去掉。（原理是`-Werror`表示把所有的告警信息转化为错误信息，并在告警发生时终止编译过程。）即可正确编译，然后`make install`安装。安装完成后运行`aircrack-ng`，如果有提示信息，则说明安装正确。
