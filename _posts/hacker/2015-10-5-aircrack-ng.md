@@ -2,7 +2,6 @@
 layout: post
 category: hacker
 title: aircrack-ng在Ubuntu下破解wifi密码
-tagline: by 赵宏阳
 tags: [wifi破解]
 ---
 

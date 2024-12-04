@@ -2,7 +2,6 @@
 layout: post
 category: 记录
 title: 我的网站做好了
-tagline: by 赵宏阳
 tags: [记录]
 ---
 

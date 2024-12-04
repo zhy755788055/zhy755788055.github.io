@@ -6,29 +6,6 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
 markdown: kramdown
-  
-# The title and tagline is showed on homepage
-#
-title :  赵宏阳
-tagline: 赵宏阳的 Blog
-
-# Information about author
-#
-author :
-  name : 赵宏阳
-  
-# Information for contacts showed at on the footer
-#
-contact :
-  e-mail : mailto:zhy755788055@gmail.com
-  Github : https://github.com/zhy755788055
-  WeiBo : http://www.weibo.com/u/1835738442
- 
-# Links showed on the footer
-#
-links :
-  赵宏阳的 Blog : http://www.zhaohongyang.org
-
 # The search engine. Only support google custom search engine.
 #
 search : 
@@ -67,7 +44,7 @@ auto_loadmore : true
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.zhaohongyang.org
+production_url : https://www.zhaohongyang.org
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -118,26 +95,6 @@ JB :
   rss_path : /rss.xml
   about_path : /about.html
   search_path : /search.html
-
-  # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
-  comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : zhy755788055
-    disqus :
-      short_name : zhy755788055
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
